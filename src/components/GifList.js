@@ -30,7 +30,7 @@ const GifList = props => {
                         id={gif.id} 
                         src={gif.images.original.url} 
                         alt={gif.embed_url} 
-                    />{console.log(gif)}
+                    />
                 </li> 
             )}
         </ul>
